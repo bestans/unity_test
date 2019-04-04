@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Spine Examples/3dtest/3dscene.unity
+  isLoaded: 1
+  isActive: 1
