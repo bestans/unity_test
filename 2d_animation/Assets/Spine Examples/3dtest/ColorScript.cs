@@ -6,7 +6,7 @@ public class ColorScript : MonoBehaviour
 {
     public Color[] all_colors;
     private Mesh mesh;
-
+    
     void Start()
     {
         if (all_colors == null || all_colors.Length <= 0)

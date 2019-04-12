@@ -133,17 +133,21 @@ namespace Spine.Unity.Examples {
 					velocity.x *= Mathf.Sign(input.x);
 				}
 			}
-			
-			
-			if (!isGrounded) {
-				if (wasGrounded) {
-					if (velocity.y < 0)
-						velocity.y = 0;
-				} else {
-					velocity += gravityDeltaVelocity;
-				}
-			}
-			controller.Move(velocity * dt);
+
+
+            //if (!isGrounded)
+            //{
+            //    if (wasGrounded)
+            //    {
+            //        if (velocity.y < 0)
+            //            velocity.y = 0;
+            //    }
+            //    else
+            //    {
+            //        velocity += gravityDeltaVelocity;
+            //    }
+            //}
+            controller.Move(velocity * dt);
 			wasGrounded = isGrounded;
 			
 			// Determine and store character state

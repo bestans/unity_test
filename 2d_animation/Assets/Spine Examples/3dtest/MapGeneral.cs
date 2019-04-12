@@ -7,13 +7,20 @@ public class MapGeneral : MonoBehaviour
     public GameObject p;
     // Start is called before the first frame update
     void Start()
-    {   
-        for (int i = -5; i <  5; ++i)
+    {
+        int n = 10;
+        for (int i = -n; i <  n; i+=1)
         {
-            for (int j = -5; j < 5; ++j)
+            for (int j = -n; j < n; j+=1)
             {
                 var tt = GameObject.Instantiate(p);
                 tt.transform.position = new Vector3(i, j, 0);
+
+                if (i == n-1 || j == n - 1 || i == -n || j == -n)
+                {
+                    var tt1 = GameObject.Instantiate(p);
+                    tt1.transform.position = new Vector3(i, j, -1);
+                }
             }
         }
     }

@@ -40,9 +40,9 @@ namespace Spine.Unity.Examples {
 			if (eventSource == null)
 				return;
 
-			eventSource.OnLand += OnLand.Invoke;
-			eventSource.OnJump += OnJump.Invoke;
-			eventSource.OnHardLand += OnHardLand.Invoke;
+			//eventSource.OnLand += OnLand.Invoke;
+			//eventSource.OnJump += OnJump.Invoke;
+			//eventSource.OnHardLand += OnHardLand.Invoke;
 		}
 	}
 }
