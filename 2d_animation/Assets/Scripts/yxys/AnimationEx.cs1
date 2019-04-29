@@ -1,0 +1,10 @@
+﻿using UnityEngine;
+using System.Collections;
+public class AnimationEx : DAnimationEx {
+    public override IEnumerator PreLoadEffect() {
+        ActionEffect ae = GetComponent<ActionEffect>();
+        if (ae != null) {
+            yield return StartCoroutine(ae.Preload());
+        }
+    }
+}

@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 41dc1c11d10831244b7b91d1936447d7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone001(mirrored)
+    100004: Bone002
+    100006: Bone002(mirrored)
+    100008: Bone003
+    100010: Bone003(mirrored)
+    100012: Bone005
+    100014: Bone005(mirrored)
+    100016: Bone006
+    100018: Bone006(mirrored)
+    100020: Bone007
+    100022: Bone007(mirrored)
+    100024: Bone009
+    100026: Bone009(mirrored)
+    100028: Bone010
+    100030: Bone010(mirrored)
+    100032: Bone011
+    100034: Bone011(mirrored)
+    100036: Bone012
+    100038: Bone013
+    100040: Bone014
+    100042: Bone015
+    100044: Bone016
+    100046: Bone017
+    100048: Bone018
+    100050: Bone020
+    100052: Bone021
+    100054: Bone022
+    100056: Bone023
+    100058: Bone025
+    100060: Bone026
+    100062: //RootNode
+    100064: crabboxer
+    400000: Bone001
+    400002: Bone001(mirrored)
+    400004: Bone002
+    400006: Bone002(mirrored)
+    400008: Bone003
+    400010: Bone003(mirrored)
+    400012: Bone005
+    400014: Bone005(mirrored)
+    400016: Bone006
+    400018: Bone006(mirrored)
+    400020: Bone007
+    400022: Bone007(mirrored)
+    400024: Bone009
+    400026: Bone009(mirrored)
+    400028: Bone010
+    400030: Bone010(mirrored)
+    400032: Bone011
+    400034: Bone011(mirrored)
+    400036: Bone012
+    400038: Bone013
+    400040: Bone014
+    400042: Bone015
+    400044: Bone016
+    400046: Bone017
+    400048: Bone018
+    400050: Bone020
+    400052: Bone021
+    400054: Bone022
+    400056: Bone023
+    400058: Bone025
+    400060: Bone026
+    400062: //RootNode
+    400064: crabboxer
+    4300000: crabboxer
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: crabboxer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

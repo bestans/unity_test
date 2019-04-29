@@ -60,7 +60,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTweenPro\DOTweenProShortcuts.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTweenPro\DOTweenTextMeshPro.cs" />
+    <Compile Include="Assets\DOTween Pro v1.0.065\DOTweenPro\DOTweenTk2d.cs" />
+    <Compile Include="Assets\Resources\BattleHurtNumber.cs" />
+    <Compile Include="Assets\Resources\Fonts\TestHurtNumber.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Common\Global.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Common\GlobalToolsFunction.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Common\Singleton.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Common\StringUtils.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Creature\Scene2DObject.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Creature\Scene3DMonster.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Creature\SceneGameObject.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Creature\SceneGameObjectScript.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\DataPool\PrefabPool.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\LoadBundleInterface.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RAnimationClip.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RAudio.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RBundleManager.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RLevel.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RMaterial.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RPrefab.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RResource.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RText.cs" />
+    <Compile Include="Assets\Scripts\ClientCore\Resource\RTexture.cs" />
+    <Compile Include="Assets\Scripts\Test\MonsterManager.cs" />
+    <Compile Include="Assets\Scripts\yxys\AnimationPlay.cs" />
     <Compile Include="Assets\Spine Examples\3dtest\3dcube\CubeTexture.cs" />
+    <Compile Include="Assets\Spine Examples\3dtest\Atlas\fonts\CostomFont.cs" />
     <Compile Include="Assets\Spine Examples\3dtest\ColorScript.cs" />
     <Compile Include="Assets\Spine Examples\3dtest\MapGeneral.cs" />
     <Compile Include="Assets\Spine Examples\3dtest\Scripts\TestController.cs" />
@@ -119,27 +154,122 @@
     <Compile Include="Assets\Spine Examples\Scripts\SpineboyFreeze.cs" />
     <Compile Include="Assets\Spine Examples\Scripts\SpineboyPole.cs" />
     <Compile Include="Assets\Spine Examples\Scripts\SpineGauge.cs" />
+    <None Include="Assets\Resources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-BumpNolight.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Eyes\eyes.atlas.txt" />
+    <None Include="Assets\DOTween Pro v1.0.065\DOTweenPro\readme.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Alpha-BumpSpec.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-BumpSpec.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Lightmap-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Add.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle Blend.shader" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-ChgColor-Diffuse-OutLine.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Lightmap-Unlit.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Flare.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Alpha-ParallaxSpec.shader" />
+    <None Include="Assets\Resources\Shaders\Environment\MADFINGER-Unlit-Scroll2Layers-Mul-skybox.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Gauge\Gauge.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Unlit\Unlit-AlphaTest.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Illumin-VertexLit.shader" />
+    <None Include="Assets\Resources\Shaders\Particle Add2.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\FootSoldier\FS_White.atlas.txt" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Dragon\license.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Illumin-Glossy.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\AlphaTest-Glossy.shader" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-Diffuse-Alpha.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Hero\license.txt" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-Diffuse-OutLine.shader" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-Gray.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Goblins\goblins.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-Diffuse-Alpha-OutLine.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Unlit\Unlit-Normal.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Stretchyman\stretchyman-diffuse-pma.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\Unlit-Normal.shader" />
+    <None Include="Assets\Resources\Shaders\TGP_Outline.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Skybox.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Illumin-ParallaxSpec.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\AlphaTest-BumpSpec.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Multiply.shader" />
+    <None Include="Assets\Resources\Shaders\Rim-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\WaterBumped_Fresnel.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-Parallax.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Raptor\raptor.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Alpha-Bumped.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\spineboy-unity\spineboy.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Illumin-BumpSpec.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Illumin-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle Alpha Blend.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec-1DirectionalLight.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\FootSoldier\license.txt" />
+    <None Include="Assets\Resources\Shaders\Environment\MADFINGER-Lightmap-Unlit-Wind.shader" />
     <None Include="Assets\Spine\version.txt" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-ChgColor-Diffuse-Alpha.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Skybox.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Unlit\Unlit-Alpha.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle VertexLit Blended.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Alpha-Parallax.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Raggedy Spineboy\Raggedy Spineboy.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\MobileBlur.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\whirlyblendmodes\whirlyblendmodes.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\AlphaTest-SoftEdgeUnlit.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle Multiply.shader" />
     <None Include="Assets\Spine Examples\Test\LeftSide.shader" />
+    <None Include="Assets\Resources\Shaders\ChangeColor.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-Glossy.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Lightmap-Glossy.shader" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-ChgColor-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Alpha-VertexLit.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Decal.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Alpha-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-BumpVertexLit.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Bumped.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Illumin-Bumped.shader" />
+    <None Include="Assets\Resources\Shaders\Rim-ChgColor-Diffuse.shader" />
+    <None Include="Assets\DOTween Pro v1.0.065\DOTween\readme.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\skybox cubed.shader" />
+    <None Include="Assets\Resources\Shaders\Rim-ChgColor-Diffuse-OutLine.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit-OnlyDirectionalLights.shader" />
+    <None Include="Assets\Resources\Shaders\Environment\MADFINGER-skybox-transparent.shader" />
     <None Include="Assets\Spine Examples\3dtest\Vertex.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\AlphaTest-Diffuse.shader" />
     <None Include="Assets\Spine Examples\Test\RightSide.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Dragon\dragon.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Alpha-Glossy.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-Bumped.shader" />
     <None Include="Assets\Spine Examples\Test\Rhombus.shader" />
+    <None Include="Assets\Resources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-ChgColor-Diffuse-Alpha-OutLine.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle AddMultiply.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-ParallaxSpec.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\AlphaTest-VertexLit.shader" />
+    <None Include="Assets\DOTween Pro v1.0.065\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\Resources\Shaders\Rim-Diffuse-OutLine.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Lightmap-Bumped.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle AddSmooth.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\AlphaTest-Bumped.shader" />
+    <None Include="Assets\Resources\Shaders\Illumin-Rim-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Reflect-VertexLit.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\spineboy-pro\spineboy-pro.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Lightmap-VertexLit.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Spineunitygirl\Doi.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\Rim.shader" />
+    <None Include="Assets\Resources\Shaders\TGP_Include.cginc" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha-VertexLit.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Lightmap-BumpSpec.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\Hero\hero-pro.atlas.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Mobile\Mobile-Diffuse.shader" />
+    <None Include="Assets\DOTween Pro v1.0.065\readme_DOTweenPro.txt" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle Add.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle MultiplyDouble.shader" />
+    <None Include="Assets\Resources\Shaders\EffectDistrotion.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Sprites-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\ImageEffect.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Illumin-Parallax.shader" />
+    <None Include="Assets\Resources\Shaders\DefaultResourcesExtra\Particle Premultiply Blend.shader" />
     <None Include="Assets\Spine Examples\Spine Skeletons\FootSoldier\Equipment\Equipment.atlas.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -150,17 +280,17 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Editor">
       <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/Editor.dll</HintPath>
     </Reference>
     <Reference Include="XiaomiSupport">
       <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>E:/unity_work/2d_animation/2d_animation/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files (x86)/unity/2018.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -377,6 +507,15 @@
     </Reference>
     <Reference Include="UnityStore">
       <HintPath>E:/unity_work/2d_animation/2d_animation/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>E:/unity_work/2d_animation/2d_animation/Assets/DOTween Pro v1.0.065/DemiLib/Core/DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>E:/unity_work/2d_animation/2d_animation/Assets/DOTween Pro v1.0.065/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>E:/unity_work/2d_animation/2d_animation/Assets/DOTween Pro v1.0.065/DOTweenPro/DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Program Files (x86)/unity/2018.3.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
